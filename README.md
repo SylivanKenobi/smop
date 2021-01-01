@@ -1,3 +1,14 @@
+Sylvain Notes:
+Process to convert(Linux):
+1. `pip3 install numpy`
+1. `pip3 install networkx==1.11`
+1. `python3 setup.py install --user`
+1. `/home/sgilgen/.local/bin/smop generateMultiratePitchFilterbank.m`
+1. Change import in new Pythonfile from `from libsmop import *` to `from smop.libsmop import *`
+1. Fix indentation
+1. Run look for errors
+
+
 Summary
 -------
 
